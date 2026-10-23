@@ -1,0 +1,58 @@
+All ANSI Escape sequences are case-sensitve
+
+# = a number or letter to be replaced
+
+   Escape Character
+      \
+ESC = ^[
+    | 
+    In other languages it can be "\e or \x1b or \033 or \27"
+                                        (hex)   (oct)  (dec)
+
+A Control Sequence Introducer (CSI) is whats use to control the terminal 
+|
+|   Escape Character 
+|      \  
+CSI = ESC[
+          \
+        Left square bracket
+
+
+
+Cursor Movment
+
+     <Y>   <X>
+       \   /
+    ESC[#;#H
+  
+       s  u     <s> saves the position
+        \/      <u> restores from saved position
+    ESC[#
+
+
+Background and Foreground Colors and Styling
+
+    ESC[#m      <0> Resets color and styles to defaults 
+                <30 - 37> Foreground colors
+                <90 - 97> Bright Foreground Colors
+                <40 - 47> Backgound Colors
+                <100 - 107> Bright Background Colors
+                
+     Bg   Fg Specifier    
+       \ /  
+        |   R G B    <38> Forground Specifier (Fg)
+    ESC[#;2;#;#;#m   <49> Background Specifier (Bg)
+
+
+Alternate Screen Buffer
+
+            h  l     <h> Switches to the alternate screen buffer 
+             \/      <l> Switches to the main screen buffer
+    ESC[?1049#
+    
+    
+Cursor Visiblity
+
+          h  l       <h> Makes the cursor visible
+           \/        <l> Makes the cursor not visible
+    ESC[?25#    

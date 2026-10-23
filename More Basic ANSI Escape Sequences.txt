@@ -1,0 +1,20 @@
+ANSI Character Styling
+
+ESC[3m - Italic
+ESC[4m - Underline
+ESC[5m - Blinking Text
+ESC[6m - Blinking Text (rapid)
+ESC[9m - Line Through Text
+ESC[22m - Double Underline
+ESC[24 - No Underline
+ESC[53m - Topline
+
+ESC[1m - Applies Brightness Flag to Foreground Color
+ESC[7m - Swaps Background and Foreground Colors
+ESC[8m - Sets Foreground Color to Background Color
+ESC[22m - Removes Brightness Flag to Foreground Color
+ESC[27m - Returns Background and Foreground Colors from Swap
+
+
+
+
