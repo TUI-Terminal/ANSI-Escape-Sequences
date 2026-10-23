@@ -33,7 +33,7 @@ Cursor Movment
        \        <B> Moves the cursor DOWN <n> times from current position
     ESC[##      <C> Moves the cursor RIGHT <n> times from current position
           \     <D> Moves the cursor LEFT <n> times from current position
-      (A,B,C,D)
+      <A,B,C,D>
 
 Background and Foreground Colors and Styling
 
