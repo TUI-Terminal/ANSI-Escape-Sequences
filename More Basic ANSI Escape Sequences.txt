@@ -14,7 +14,3 @@ ESC[7m - Swaps Background and Foreground Colors
 ESC[8m - Sets Foreground Color to Background Color
 ESC[22m - Removes Brightness Flag to Foreground Color
 ESC[27m - Returns Background and Foreground Colors from Swap
-
-
-
-
